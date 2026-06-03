@@ -3,8 +3,6 @@ const APP_SCOPE = new URL(self.registration.scope).pathname
 const APP_ASSETS = [
   APP_SCOPE,
   `${APP_SCOPE}manifest.webmanifest`,
-  `${APP_SCOPE}icons/app-icon.svg`,
-  `${APP_SCOPE}icons/app-maskable.svg`,
   `${APP_SCOPE}icons/app-icon-192.png`,
   `${APP_SCOPE}icons/app-icon-512.png`,
 ]

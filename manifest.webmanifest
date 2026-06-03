@@ -1,39 +1,32 @@
 {
-  "name": "Need 4 Speed Lahore",
-  "short_name": "N4S Lahore",
-  "description": "An arcade chase racer set on Lahore roads with staged progression, traffic, police pressure, and evolving vehicle classes.",
-  "start_url": "/Need4SpeedLahore/",
-  "scope": "/Need4SpeedLahore/",
+  "name": "Lahore Street Racer: 3D Traffic Chase",
+  "short_name": "Lahore Racer",
+  "description": "Race through Lahore-inspired 3D traffic, police pressure, premium cars, nitro boosts, and arcade chase stages.",
+  "start_url": ".",
+  "scope": ".",
   "display": "standalone",
   "orientation": "landscape",
   "background_color": "#07111f",
   "theme_color": "#07111f",
   "lang": "en-US",
-  "categories": ["games", "entertainment", "racing"],
+  "categories": [
+    "games",
+    "racing",
+    "entertainment"
+  ],
   "icons": [
     {
-      "src": "/Need4SpeedLahore/icons/app-icon.svg",
-      "sizes": "any",
-      "type": "image/svg+xml",
-      "purpose": "any"
-    },
-    {
-      "src": "/Need4SpeedLahore/icons/app-maskable.svg",
-      "sizes": "any",
-      "type": "image/svg+xml",
-      "purpose": "maskable"
-    },
-    {
-      "src": "/Need4SpeedLahore/icons/app-icon-192.png",
+      "src": "icons/windows-store-icon-192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "/Need4SpeedLahore/icons/app-icon-512.png",
+      "src": "icons/windows-store-icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"
     }
-  ]
+  ],
+  "id": "./"
 }
